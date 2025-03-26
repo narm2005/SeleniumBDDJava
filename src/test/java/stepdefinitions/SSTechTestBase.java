@@ -33,8 +33,8 @@ public class SSTechTestBase  {
     }
     @When("I am on Home Page")
     public void i_am_on_home_page() {
-        browser.findElement(By.xpath("//input[@formcontrolname='username']")).sendKeys("npalanisamy");
-        browser.findElement(By.xpath("//input[@formcontrolname='password']")).sendKeys("narmi305");
+        browser.findElement(By.xpath("//input[@formcontrolname='username']")).sendKeys("usernamme");
+        browser.findElement(By.xpath("//input[@formcontrolname='password']")).sendKeys("testpass");
         browser.findElement(By.xpath("//button[text()='Login ']")).click();
 
         // Write code here that turns the phrase above into concrete actions
