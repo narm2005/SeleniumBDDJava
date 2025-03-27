@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Sc1, Validate login in to SStech",
+        "description": "",
+        "id": "test-validate-login-in-to-sstech-portal;sc1,-validate-login-in-to-sstech",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6116021900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am login in to Portal",
+            "match": {
+              "location": "SSTechTestBase.i_am_login_in_to_portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 279672100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Home Page",
+            "match": {
+              "location": "SSTechTestBase.i_am_on_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21843000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I validate user name is diaplayed",
+            "match": {
+              "location": "SSTechTestBase.i_validate_user_name_is_diaplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Validate login in to SStech portal",
+    "description": "",
+    "id": "test-validate-login-in-to-sstech-portal",
+    "keyword": "Feature",
+    "uri": "Test1.feature"
+  }
+]
